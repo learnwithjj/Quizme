@@ -1,0 +1,79 @@
+.quizpage
+{
+    background: rgba(10, 62, 174, 0.902);
+    width:700px;
+    height: auto;
+    padding: 30px;
+    
+}
+
+#question
+{
+    font-family: "Latto";
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#placeoptions
+{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center|top;
+    flex-direction: column;
+    
+}
+
+.options
+{
+    font-family:"'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding: 4px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+#previousdiv
+{
+    float: left;
+    margin-top: 20px;
+}
+
+#nextdiv
+{
+    float: right;   
+    margin-top: 20px;
+}
+
+#previous
+{
+    font-family: monospace;
+  margin-top:5px;
+  padding:10px 25px 10px 25px;
+  border: 0.1px  ;
+  border-radius: 15px;
+  font-size:20px;
+  background-color: darkred;
+  color: white;
+  cursor:pointer;
+  
+}
+
+
+#next
+{
+    font-family: monospace;
+    margin-top:5px;
+  padding:10px 25px 10px 25px;
+  border: 0.1px  ;
+  border-radius: 15px;
+  font-size:20px;
+  background-color: darkred;
+  color: white;
+  cursor:pointer;
+}
