@@ -12,6 +12,7 @@ function Endpage()
     function Restart()
     {
         setgameState("menu");
+        setScore(0);
     }
 
     return(<div >

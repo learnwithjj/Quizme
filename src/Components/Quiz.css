@@ -77,3 +77,14 @@
   color: white;
   cursor:pointer;
 }
+
+
+#questionno
+{
+    font-family:"Lobster Two";
+    font-size: 30px;
+    float: right;
+    color: wheat;
+    margin-right: 5px;
+    margin-top: 5px;
+}

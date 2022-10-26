@@ -46,8 +46,8 @@ function Quiz()
               <div><button className="options"onClick={()=>{setpick(answers.at(2))}} disabled={disable}>{answers.at(2)}</button></div>
               <div><button className="options" onClick={()=>{setpick(answers.at(3))}} disabled={disable}>{answers.at(3)}</button></div>
               </div>
-              <div>{data[currques].correct_answer}
-              </div>
+              {/* <div>{data[currques].correct_answer}
+              </div> */}
               
               </div>
       </div>)
@@ -115,6 +115,7 @@ console.log(answers);
         return(
         <div >
           <div id="score">Score : {score} </div>
+          <div id="questionno">Question no : {currques}/{data.length} </div>
           <Question data={data} answers={answers} number={currques}/>
            {currques===0 ? (<div></div>) : (<div id="previousdiv"><button id="previous"   onClick={Previous} >Previous</button></div> ) }
             {currques===data.length-1 ? (<div id="nextdiv"><button id="next" onClick={Finished}>Finished</button></div>) :( <div id="nextdiv"><button id="next" onClick={Next}>Next</button></div>) }
